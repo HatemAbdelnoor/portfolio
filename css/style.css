@@ -1,0 +1,218 @@
+header{
+    background-image: url(../img/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+
+}
+
+nav a{color: black;}
+
+
+.overlayout{
+   background-color: rgba(0, 0, 0, 0.632);
+   padding: 0;
+   margin: 0;
+}
+.homeText{ color: white;}
+
+
+.hometext h2::after{
+    content: '|';
+    animation-name: typing;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+
+
+}
+
+
+@keyframes typing{
+ 5% {content: 'd|';}
+ 10% {content: 'de|';}
+ 15% {content: 'dev|';}
+ 20% {content: 'deve|';}
+ 25% {content: 'devel|';}
+ 30% {content: 'develo|';}
+ 35% {content: 'develop|';}
+ 40% {content: 'develope|';}
+ 50% {content: 'developer|';}
+ 60% {content: 'develope|';}
+ 65% {content: 'develop|';}
+ 70% {content: 'develo|';}
+ 75% {content: 'devel|';}
+ 80% {content: 'deve|';}
+ 85% {content: 'dev|';}
+ 90% {content: 'de|';}
+ 95% {content: 'd|';}
+ 100% {content: '|';}
+;
+}
+
+.About button{
+transition: all.5s;
+}
+
+.button1:hover{
+    
+transition: all.5s;
+background-color: white;
+color: black;
+} 
+.button2:hover{
+    
+transition: all.5s;
+    background-color: black;
+    color: white;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.icons i{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+        height: 35px;
+    color: white;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.3);
+}
+a{
+    text-decoration: none;
+}
+.progress-bar h6 { font-size: 13px;
+    padding-left: 10px;
+}
+.progress{
+    height: 25px;
+}
+.serviceicone{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    width: 70px;
+        height: 70px;
+   border-radius: 50%;
+   background-color: #f4f4f4;
+   color: black;
+   transition: all.5s;
+}
+
+
+.serviceicone:hover{
+    transition: all.5s;
+    background-color: black;
+    color: white;
+}
+
+.Portfolio ul li{
+    list-style: none;
+    color: black;
+
+}
+
+.portfoliimg{
+    transition: all.5s;
+    
+}
+.portfoliimg:hover{ position: relative;
+    transition: all.5s;
+ opacity: 40%;
+ border-style: solid;
+ border-color:black ;
+ border-width: 5px; 
+}
+.portfoliimg { 
+    transition: all.5s;
+  
+}
+.portfolilayer{ position: absolute;
+top: 0;
+left: 0;}
+
+.carousel-inner img{
+
+
+
+}
+nav{z-index: 10;}
+
+.c img{   
+    transition: all.5s;
+
+}
+.blogdiv img:hover{ 
+    transition: all.5s;
+transform: scale(1.3)
+}
+.Contact i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50px;
+        height: 50px;
+    border-radius: 50%;
+    background-color: #f4f4f4;
+transition: all.5s;
+}
+
+.Contact i:hover{
+    transition: all.5s;
+    background-color: black;
+    color: white;
+}
+.Submit{
+  width: 150px;
+
+}
+#carouselExampleIndicators img{
+    width: 15%;
+
+}
+
+
+.Submit:hover{
+    background-color: aliceblue;
+    color: black
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+}
+footer{
+    color: white;
+}
+.contactline{
+    width: 100px;
+    height: 4px;
+    background-color: #0078ff;
+  margin-top: 6px;
+}
+
+.service h3{position: relative;
+}
+.dots{ 
+    display: flex;
+    margin: auto;
+
+ 
+    width: 200px;
+    height: 10px;
+    background-image: url(../img/dots.png);
+    background-repeat: repeat;
+    bottom: -10px;
+    left: 0;
+}
+
+.Portfolio h3{
+    position: relative;
+}
+.Testimonials h2{
+    position: relative;
+}
+.blog h2{
+    position: relative;
+}
